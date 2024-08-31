@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Connect - Welcome</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Section */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .logo {
+            flex: 1;
+            padding-left: 50px; /* Heavy space for the logo */
+        }
+
+        .logo img {
+            width: 200px; /* Adjust size of logo */
+        }
+
+        nav {
+            flex: 2;
+            text-align: right;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        /* Banner with Quotation */
+        .banner {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+
+        .banner .quote {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* About Us Section */
+        .about-us {
+            background-color: #ffff99; /* Light yellow */
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .about-us h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .about-us p {
+            font-size: 1.3em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Apply Now Section */
+        .apply-now {
+            background-color: #1e90ff; /* Blue */
+            color: white;
+            padding: 100px 20px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .apply-now .section {
+            width: 45%;
+            padding: 20px;
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .apply-now .section h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .apply-now .section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .apply-now .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .apply-now .section a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        .apply-now .section a:hover {
+            background-color: #1e90ff;
+        }
+
+        /* Quotes Section */
+        .quotes-section {
+            display: flex;
+            padding: 100px 20px;
+        }
+
+        .quote {
+            width: 50%;
+            padding: 50px;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .quote.blue {
+            background-color: #1e90ff;
+        }
+
+        .quote.yellow {
+            background-color: #ffff99;
+            color: black;
+        }
+
+        /* FAQs Section */
+        .faqs {
+            background-color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .faqs h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .faqs p {
+            font-size: 1.3em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        footer input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #1e90ff;
+            border-radius: 5px;
+            width: 300px;
+        }
+
+        footer button {
+            padding: 10px 20px;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        footer button:hover {
+            background-color: #104e8b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="C:\Users\guptt\OneDrive\Documents\Desktop\Screenshot (188).png" alt="Mentor Connect Logo">
+            </div>
+            <nav>
+                <a href="#">About Us</a>
+                <a href="#">FAQs</a>
+                <a href="#">Apply Now</a>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <img src="C:\Users\guptt\Downloads\_b2d0d520-dab2-4f8d-b094-ee556f4eb736.jpeg" alt="Mentor Connect Banner">
+            <div class="quote">"Connecting students with career guidance mentors for a brighter future."</div>
+        </section>
+
+        <section class="about-us">
+            <h2>About Mentor Connect</h2>
+            <p>Mentor Connect bridges the gap between mentees of all ages and experienced professionals across industries.
+                We offer personalized guidance to help mentees navigate their career paths effectively.</p>
+        </section>
+
+        <section class="apply-now">
+            <div class="section">
+                <img src="C:\Users\guptt\Downloads\_1749fdbe-638c-4710-a553-c22a1ab566b7.jpeg" alt="Mentor">
+                <h3>Become as Mentor</h3>
+                <p>"Join Mentor Connect and make a difference in someone's career journey."</p>
+                <a href="#">Mentor Login / Sign Up</a>
+            </div>
+            <div class="section">
+                <img src="C:\Users\guptt\Downloads\_582dd97e-9411-433e-93fc-02d310791604.jpeg" alt="Mentee">
+                <h3>Find a Mentor</h3>
+                <p>"Connect with mentors who can guide you through the complexities of career development."</p>
+                <a href="#">Mentee Login / Sign Up</a>
+            </div>
+        </section>
+
+        <section class="quotes-section">
+            <div class="quote blue">
+                "Mentorship is the key to unlocking a brighter future."
+            </div>
+            <div class="quote yellow">
+                "Guidance from those who have walked the path makes the journey smoother."
+            </div>
+        </section>
+
+        <section class="faqs">
+            <h2>Frequently Asked Questions</h2>
+            <p>Have questions about Mentor Connect? Find answers to the most common queries here.</p>
+        </section>
+
+        <footer>
+            <p>Subscribe to our newsletter for the latest updates on mentoring opportunities:</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </footer>
+    </div>
+</body>
+
+</html>
